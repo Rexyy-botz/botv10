@@ -284,7 +284,7 @@ if (tebakgambar.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
 kuis = true
 jawaban = tebakgambar[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await alpha.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `🎮 Tebak Gambar 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, `© ${ownername}`, m)
+await alpha.sendButtonText(m.chat, [{ buttonId: 'hehehehe', buttonText: { displayText: 'Tebakgambar' }, type: 1 }], `🎮 Tebak Gambar 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, `© ${ownername}`, m)
 delete tebakgambar[m.sender.split('@')[0]]
 } else m.reply('*Jawaban Salah!*')
 }
@@ -294,7 +294,7 @@ if (tebakkata.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
 kuis = true
 jawaban = tebakkata[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await alpha.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `🎮 Tebak Kata 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, `© ${ownername}`, m)
+await alpha.sendButtonText(m.chat, [{ buttonId: 'hehehe', buttonText: { displayText: 'Tebakkata' }, type: 1 }], `🎮 Tebak Kata 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, `© ${ownername}`, m)
 delete tebakkata[m.sender.split('@')[0]]
 } else m.reply('*Jawaban Salah!*')
 }
@@ -365,7 +365,7 @@ if (tebakkabupaten.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
 kuis = true
 jawaban = tebakkabupaten[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await alpha.sendButtonText(m.chat, [{ buttonId: 'tebak kabupaten', buttonText: { displayText: 'Tebak Kabupaten' }, type: 1 }], `🎮 Tebak Kabupaten 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, `© ${ownername}`, m)
+await alpha.sendButtonText(m.chat, [{ buttonId: 'hehehehe', buttonText: { displayText: 'Tebak Kabupaten' }, type: 1 }], `🎮 Tebak Kabupaten 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, `© ${ownername}`, m)
 delete tebakkabupaten[m.sender.split('@')[0]]
 } else m.reply('*Jawaban Salah!*')
 }
@@ -375,7 +375,7 @@ if (tebakkimia.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
 kuis = true
 jawaban = tebakkimia[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await alpha.sendButtonText(m.chat, [{ buttonId: 'tebak kimia', buttonText: { displayText: 'Tebak Kimia' }, type: 1 }], `🎮 Tebak Kimia 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, `© ${ownername}`, m)
+await alpha.sendButtonText(m.chat, [{ buttonId: 'hehehehehe', buttonText: { displayText: 'Tebak Kimia' }, type: 1 }], `🎮 Tebak Kimia 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, `© ${ownername}`, m)
 delete tebakkimia[m.sender.split('@')[0]]
 } else m.reply('*Jawaban Salah!*')
 }
@@ -385,7 +385,7 @@ if (tebaklirik.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
 kuis = true
 jawaban = tebaklirik[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await alpha.sendButtonText(m.chat, [{ buttonId: 'tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `🎮 Tebak Lirik 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, `© ${ownername}`, m)
+await alpha.sendButtonText(m.chat, [{ buttonId: 'hehehe', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `🎮 Tebak Lirik 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, `© ${ownername}`, m)
 delete tebaklirik[m.sender.split('@')[0]]
 } else m.reply('*Jawaban Salah!*')
 }
@@ -395,7 +395,7 @@ if (tebaktebakan.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
 kuis = true
 jawaban = tebaktebakan[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await alpha.sendButtonText(m.chat, [{ buttonId: 'tebak tebakan', buttonText: { displayText: 'Tebak Tebakan' }, type: 1 }], `🎮 Tebak Tebakan 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, `© ${ownername}`, m)
+await alpha.sendButtonText(m.chat, [{ buttonId: 'hehehehe', buttonText: { displayText: 'Tebak Tebakan' }, type: 1 }], `🎮 Tebak Tebakan 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, `© ${ownername}`, m)
 delete tebaktebakan[m.sender.split('@')[0]]
 } else m.reply('*Jawaban Salah!*')
 }
