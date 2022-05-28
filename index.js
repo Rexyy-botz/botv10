@@ -280,25 +280,6 @@ alpha.sendText(m.chat, caption, m, { contextInfo: { mentionedJid: parseMention(c
 if (isWin || isSurender) delete _family100['family100'+m.chat]
 }
 
-if (tebakgambar.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
-kuis = true
-jawaban = tebakgambar[m.sender.split('@')[0]]
-if (budy.toLowerCase() == jawaban) {
-await alpha.sendButtonText(m.chat, [{ buttonId: 'hehehehe', buttonText: { displayText: 'Tebakgambar' }, type: 1 }], `🎮 Tebak Gambar 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, `© ${ownername}`, m)
-delete tebakgambar[m.sender.split('@')[0]]
-} else m.reply('*Jawaban Salah!*')
-}
-
-
-if (tebakkata.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
-kuis = true
-jawaban = tebakkata[m.sender.split('@')[0]]
-if (budy.toLowerCase() == jawaban) {
-await alpha.sendButtonText(m.chat, [{ buttonId: 'hehehe', buttonText: { displayText: 'Tebakkata' }, type: 1 }], `🎮 Tebak Kata 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, `© ${ownername}`, m)
-delete tebakkata[m.sender.split('@')[0]]
-} else m.reply('*Jawaban Salah!*')
-}
-
 
 if (tebakbendera.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
 kuis = true
